@@ -1,0 +1,14 @@
+Class: Dish
+
+Attributes:
+1. is_available (boolean)
+2. name (string)
+3. ingredients (array)
+4. price (float)
+5. amount_ordered (integer)
+
+Methods:
+1. upscale (This method changes the name and price of the Dish)
+2. food_allergy (This method modifies the ingredients)
+3. sold_out (This method modifies is_available)
+4. order (This method modifies amount_ordered)
