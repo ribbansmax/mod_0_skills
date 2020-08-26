@@ -1,0 +1,17 @@
+Object: Reuben (Class: Dish)
+
+Attributes:
+1. is_available = true
+2. name = "Good Sandwich"
+3. ingredients = [ "Rye bread" , "Sauerkraut" , "Pastrami" , "Swiss Cheese" , "Thousand Island Dressing" ]
+4. price = 9.95
+5. amount_ordered = 143
+
+Methods:
+1. upscale (
+            name = "Reuben me the Right Way"
+            price = 12.25
+)
+2. food_allergy (ingredients = [ "Gluten Free Bread" , "Sauerkraut" , "Pastrami" , "Swiss Cheese" , "Thousand Island Dressing" ]
+3. sold_out (is_available = false)
+4. order (amount_ordered = amount_ordered + 1)
