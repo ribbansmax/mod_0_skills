@@ -9,6 +9,6 @@ Attributes:
 
 Methods:
 1. seat (This method gives the Waiter a table to serve. This modifies the num_tables attribute.)
-2. break (This method sends the Waiter on a break for a set amount of time. This modifies the on_break attribute to 'false'.)
+2. break (This method sends the Waiter on a break for a set amount of time. This modifies the on_break attribute to 'true'.)
 3. clear (This method has a table pay and leave. This modifies the tips and the num_tables.)
 4. add_shift (This method adds a shift to the schedule array of the Waiter)
