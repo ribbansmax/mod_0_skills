@@ -1,0 +1,17 @@
+Object: HeadWaiter (Class - Waiter)
+
+Attributes:
+1. name = "Elgar Smith"
+2. tips = 0.0
+3. num_tables = 2
+4. on_break = false
+5. schedule = [ "Monday, afternoon" , "Wednesday, closing" , "Thursday, closing" ]
+
+Methods:
+seat: (num_tables = num_tables + 1)
+break: (on_break = true)
+clear: (
+        num_tables = num_tables - 1
+        tips = 36.95
+)
+add_shift: (schedule = [ "Monday, afternoon" , "Wednesday, closing" , "Thursday, closing", "Friday, opening" ])
